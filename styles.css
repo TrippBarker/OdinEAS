@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+h1 {
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#sketchpad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#case {
+    height: 675px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 30px;
+    box-shadow: 20px 20px darkred;
+}
+
+#pad {
+    height: 550px;
+    width: 550px;
+    border: 5px solid darkred;
+    border-bottom-color: pink;
+    border-right-color: pink;
+    background-color: white;
+}
+
+.size {
+    margin-top: 12px;
+}
+
+#slider {
+    -webkit-appearance: none;
+    margin-top: 13px;
+    width: 525px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background: url('./assets/slider.png');
+    cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background: url('./assets/slider.png');
+    cursor: pointer;
+  }
