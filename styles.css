@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: hsl(58, 68%, 93%);
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -28,7 +32,7 @@ h2 {
 }
 
 #case {
-    height: 675px;
+    height: 700px;
     width: 650px;
     display: flex;
     flex-direction: column;
@@ -40,15 +44,28 @@ h2 {
 }
 
 #pad {
-    height: 550px;
-    width: 550px;
+    height: 576px;
+    width: 576px;
     border: 5px solid darkred;
     border-bottom-color: pink;
     border-right-color: pink;
     background-color: white;
+    display: flex;
 }
 
-.size {
+#pixelColumn {
+}
+
+.pixel {
+    background-color: white
+}
+
+.pixel:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+    outline: 1px solid white;
+}
+
+#size {
     margin-top: 12px;
 }
 
